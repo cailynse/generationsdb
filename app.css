@@ -1,0 +1,18 @@
+body {
+    background: #343a40;
+}
+
+div .carousel-caption h1,
+h3 {
+    text-shadow: 0px 0px 3px #000;
+    color: #fff;
+    opacity: 1;
+}
+
+.tinted {
+    opacity: 0.7;
+}
+
+#services {
+    color: #fff;
+}
