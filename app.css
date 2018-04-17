@@ -16,3 +16,33 @@ h3 {
 #services {
     color: #fff;
 }
+
+hr {
+    margin-bottom: 5%;
+}
+
+.light {
+    background-color: #e9ecef;
+}
+
+.dark {
+    background-color: #343a40;
+}
+
+.serviceBtn {
+    margin: 10% 0;
+}
+
+#contact {
+    background: #e9ecef;
+    margin-top: 10%;
+    padding: 3%
+}
+
+#contact p {
+    margin: 1%;
+}
+
+.card {
+    margin: 5%;
+}
