@@ -12,6 +12,11 @@ body {
 
 }
 
+.col {
+    padding: 0;
+}
+
+
 div .carousel-caption h1,
 h3 {
     text-shadow: 0px 0px 3px #000;
@@ -21,6 +26,12 @@ h3 {
 
 .tinted {
     opacity: 0.7;
+}
+
+#quote {
+    text-align: center;
+    text-shadow: none;
+    padding: 3%;
 }
 
 #services {
@@ -77,4 +88,38 @@ h3 {
     color: #e9ecef;
     text-shadow: black 0.3em 0.3em 0.3em;
     margin-bottom: 0;
+}
+
+#aboutBanner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url("https://images.unsplash.com/photo-1516880711640-ef7db81be3e1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ec0af85369677af43bb5a2c005528e81&auto=format&fit=crop&w=1050&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-shadow: black 0.3em 0.3em 0.3em;
+    text-align: center;
+    padding: 10%
+}
+
+#kyleImg {
+    border-radius: 100%;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #e9ecef;
+}
+
+#kyleInfo {
+    padding: 2%;
+    margin: auto;
+    max-width: 900px;
+
+}
+
+#kyleInfo p {
+    padding: 3%;
+}
+
+#people {
+    padding: 3%;
 }
