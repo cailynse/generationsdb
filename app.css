@@ -70,7 +70,7 @@ h3 {
 }
 
 #interiorHeader {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url("https://images.pexels.com/photos/534151/pexels-photo-534151.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url("https://images.unsplash.com/photo-1503174971373-b1f69850bded?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5952432c3b70cfedf523282f5895f009&auto=format&fit=crop&w=500&q=60");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
