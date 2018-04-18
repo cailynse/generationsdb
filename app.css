@@ -2,6 +2,14 @@ body {
     background: #343a40;
 }
 
+.carousel-item img {
+    display: block;
+    max-height: 700px;
+    width: auto;
+    height: auto;
+
+}
+
 div .carousel-caption h1,
 h3 {
     text-shadow: 0px 0px 3px #000;
@@ -14,7 +22,7 @@ h3 {
 }
 
 #services {
-    color: #fff;
+    margin-bottom: 8%;
 }
 
 hr {
@@ -23,10 +31,12 @@ hr {
 
 .light {
     background-color: #e9ecef;
+    color: #343a40;
 }
 
 .dark {
     background-color: #343a40;
+    color: #e9ecef;
 }
 
 .serviceBtn {
@@ -35,7 +45,6 @@ hr {
 
 #contact {
     background: #e9ecef;
-    margin-top: 10%;
     padding: 3%
 }
 
@@ -45,4 +54,13 @@ hr {
 
 .card {
     margin: 5%;
+}
+
+#exteriorHeader {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url("https://images.unsplash.com/photo-1516156008625-3a9d6067fab5?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=47b4b88e2825332da6fb93898562051c&auto=format&fit=crop&w=1050&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #e9ecef;
+    text-shadow: black 0.3em 0.3em 0.3em;
+    margin-bottom: 0;
 }
