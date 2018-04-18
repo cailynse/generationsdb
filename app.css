@@ -1,5 +1,7 @@
 body {
     background: #343a40;
+    padding: 0;
+    margin: 0;
 }
 
 .carousel-item img {
@@ -25,10 +27,6 @@ h3 {
     margin-bottom: 8%;
 }
 
-hr {
-    margin-bottom: 5%;
-}
-
 .light {
     background-color: #e9ecef;
     color: #343a40;
@@ -45,11 +43,17 @@ hr {
 
 #contact {
     background: #e9ecef;
-    padding: 3%
+    min-width: 420px;
+    display: block;
+    padding: 5%;
 }
 
 #contact p {
     margin: 1%;
+}
+
+#contact h5 {
+    padding 5% 0;
 }
 
 .card {
@@ -60,6 +64,16 @@ hr {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url("https://images.unsplash.com/photo-1516156008625-3a9d6067fab5?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=47b4b88e2825332da6fb93898562051c&auto=format&fit=crop&w=1050&q=80");
     background-repeat: no-repeat;
     background-size: cover;
+    color: #e9ecef;
+    text-shadow: black 0.3em 0.3em 0.3em;
+    margin-bottom: 0;
+}
+
+#interiorHeader {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url("https://images.pexels.com/photos/534151/pexels-photo-534151.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     color: #e9ecef;
     text-shadow: black 0.3em 0.3em 0.3em;
     margin-bottom: 0;
