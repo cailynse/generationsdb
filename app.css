@@ -123,3 +123,7 @@ h3 {
 #people {
     padding: 3%;
 }
+
+.hidden {
+    display: none;
+}
